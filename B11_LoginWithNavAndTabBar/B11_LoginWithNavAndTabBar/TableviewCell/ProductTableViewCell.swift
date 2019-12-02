@@ -48,7 +48,7 @@ extension ProductTableViewCell:UICollectionViewDelegate, UICollectionViewDataSou
         return cellProduct
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row)
+        
         if pushView != nil{
             pushView()
         }
